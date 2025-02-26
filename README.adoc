@@ -1,0 +1,50 @@
+= Lineage Sapling
+
+//image:https://img.shields.io/github/release/2425-3ahitm-itp/02-projekte-seniorgames.svg?label=SeniorGames%20Latest%20Release&logo=github[link=https://github.com/EldinBegano/FamilyTreeCreator, title="Download the latest release of Lineage Sapling"]
+
+== Project Description
+
+Lineage Sapling is a simple web application that allows users to create and manage family trees. This project uses **HTML**, **CSS**, and **JavaScript** to provide an interactive and user-friendly way to organize and visualize family relationships.
+
+With Lineage Sapling, users can:
+- Create a family member.
+- Add relatives (parents, children, siblings, spouses) to any existing member.
+- View and edit information about any member by clicking on them.
+
+== Features
+
+* Add a new family member to start building the tree.
+* Easily link family members together as parents, children, siblings, or spouses.
+* Click on any member to view or update their information.
+* Organize and visualize family connections in an intuitive manner.
+
+== How to Start
+
+1. Download or clone the project to your local machine.
+
+2. Open the `index.html` file in your web browser (e.g., Chrome, Firefox, Edge).
+
+3. Start creating your family tree:
+   * To create the first family member, simply follow the on-screen prompts.
+   * Once you have a family member, you can add more by selecting an existing member and choosing one of the following relationship options:
+     - **Parent**: Add a parent to the selected member.
+     - **Child**: Add a child to the selected member.
+     - **Sibling**: Add a sibling to the selected member.
+     - **Spouse**: Add a spouse to the selected member.
+
+4. To edit a family member, click on the member’s name to view or update their information.
+
+== Technologies Used
+
+* **HTML** - For the structure of the webpage.
+* **CSS** - For styling and layout.
+* **JavaScript** - For the interactive features of the family tree.
+
+== Project Setup
+
+1. Clone this repository or download the files to your computer.
+2. Open `index.html` in your preferred web browser to begin using the Lineage Sapling
+   
+== License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
