@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="Images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./javascript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Family Tree Creator</h1>
+    </header>
+    
+    <div class="container">
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <p>1. Start by creating the first family member</p>
+            <p>2. Select any member to add relatives (parent, child, sibling, spouse)</p>
+            <p>3. Click on members to view or edit their information</p>
+            <p>4. Use the zoom controls to navigate larger family trees</p>
+            <div class="keyboard-controls">
+                <h4>Keyboard Controls:</h4>
+                <p>• Arrow keys: Navigate the tree</p>
+                <p>• +/- keys: Zoom in/out</p>
+                <p>• Enter: Select highlighted member</p>
+                <p>• Esc: Cancel current action</p>
+            </div>
+        </div>
+        
+        <div class="control-panel" id="initial-form">
+            <h2>Create First Family Member</h2>
+            <div class="form-group">
+                <label for="init-name">Name</label>
+                <input type="text" id="init-name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="init-birthdate">Birthdate</label>
+                <input type="date" id="init-birthdate">
+            </div>
+            <div class="form-group">
+                <label for="init-image">Picture</label>
+                <input type="file" id="init-image" accept="image/*">
+            </div>
+            <button id="create-first-member">Create Family Tree</button>
+        </div>
+        
+        <div class="control-panel hidden" id="add-relative-form">
+            <h2>Add Family Member</h2>
+            <div class="form-group">
+                <label for="relation-type">Relationship</label>
+                <select id="relation-type">
+                    <option value="parent">Parent</option>
+                    <option value="child">Child</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="spouse">Spouse</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="new-name">Name</label>
+                <input type="text" id="new-name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="new-birthdate">Birthdate</label>
+                <input type="date" id="new-birthdate">
+            </div>
+            <div class="form-group">
+                <label for="new-image">Picture</label>
+                <input type="file" id="new-image" accept="image/*">
+            </div>
+            <div class="buttons-row">
+                <button id="add-member">Add Member</button>
+                <button class="secondary-btn" id="cancel-add">Cancel</button>
+            </div>
+        </div>
+        
+        <div class="control-panel hidden" id="edit-member-form">
+            <h2>Edit Family Member</h2>
+            <div class="form-group">
+                <label for="edit-name">Name</label>
+                <input type="text" id="edit-name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="edit-birthdate">Birthdate</label>
+                <input type="date" id="edit-birthdate">
+            </div>
+            <div class="form-group">
+                <label for="edit-image">Change Picture</label>
+                <input type="file" id="edit-image" accept="image/*">
+            </div>
+            <div class="buttons-row">
+                <button id="save-edit">Save Changes</button>
+                <button class="warning-btn" id="add-relative-btn">Add Relative</button>
+                <button class="danger-btn" id="delete-member">Delete</button>
+                <button class="secondary-btn" id="cancel-edit">Cancel</button>
+            </div>
+        </div>
+        
+        <div class="family-tree-container" id="tree-container" tabindex="0">
+            <div class="family-tree" id="family-tree"></div>
+        </div>
+        
+        <div class="zoom-controls">
+            <button class="zoom-btn" id="zoom-in">+</button>
+            <button class="zoom-btn" id="zoom-out">-</button>
+            <button class="zoom-btn" id="reset-view">↺</button>
+        </div>
+    </div>
+</body>
+</html>

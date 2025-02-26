@@ -1,0 +1,26 @@
+# Betriebssystem-spezifische Dateien
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Node.js / npm / Yarn
+node_modules/    # Node.js modules
+
+# IDEs und Editoren
+.vscode/         # Visual Studio Code   
+
+# Log-Dateien
+*.log            # Log-Dateien
+
+# Temporäre Dateien
+*.bak            # Backup-Dateien
+*.swp            # Swap-Dateien
+*.tmp            # Temporäre Dateien
+
+# PHP Storm- und andere IDEs spezifische Konfigurationsdateien
+.idea/
+
+# Einstellungen von Mac OS X
+.DS_Store
+
+# Ignoriere die dev-roadmap.adoc
+/docs/dev-roadmap.adoc
