@@ -1,6 +1,6 @@
 = Lineage Sapling
 
-//image:https://img.shields.io/github/release/2425-3ahitm-itp/02-projekte-seniorgames.svg?label=SeniorGames%20Latest%20Release&logo=github[link=https://github.com/EldinBegano/FamilyTreeCreator, title="Download the latest release of Lineage Sapling"]
+image:https://img.shields.io/github/downloads/EldinBegano/FamilyTreeCreator/latest/total?label=Lineage%20Sapling%20&logo=github&[link=https://github.com/EldinBegano/FamilyTreeCreator/releases/tag/2025.02.27,title="Download the latest release of Lineage Sapling"&window="_blank"]
 
 == Project Description
 
